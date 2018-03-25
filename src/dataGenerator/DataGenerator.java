@@ -1,5 +1,4 @@
 package dataGenerator;
-import java.util.ArrayList;
 import java.util.Random;
 
 /**

@@ -10,7 +10,6 @@ import sorterClasses.SelectionSortSorter;
 import interfaces.Sorter;
 
 public class EnteroSorterTester {
-	//private static Sorter<Integer> sorter; 
 	private static Random rnd; 
 	private static ArrayList<Sorter<Entero>> sortersList = new ArrayList<>(); 
 	
@@ -19,9 +18,7 @@ public class EnteroSorterTester {
 		sortersList.add(new SelectionSortSorter<Entero>()); 
 		sortersList.add(new InsertionSortSorter<Entero>()); 
 		
-		test("Sorting Using Default Comparator<Integer>", null); 
-		//test("Sorting Using IntegerComparator1", new IntegerComparator1()); 
-		//test("Sorting Using IntegerComparator2", new IntegerComparator2()); 
+		test("Sorting Using Default Comparator<Integer>", null);
 	}
 	
 	private static void test(String msg, Comparator<Entero> cmp) { 
